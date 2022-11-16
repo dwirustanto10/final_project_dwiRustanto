@@ -1,12 +1,15 @@
-.hero img {
-  width: 700px;
-  height: 500px;
-  float: right;
-  border-radius: 50px 0px 0px 0px;
+body {
+  min-height: 2000px;
 }
 
-.home {
-  margin-left: 50px;
-  width: 40%;
-  background-color: antiquewhite;
+.hero {
+  padding-top: 2rem;
+  background-color: #bddcf1;
+}
+
+.hero img {
+  width: 300px;
+  /* height: 500px; */
+  /* float: right; */
+  /* border-radius: 50px 0px 0px 0px; */
 }
