@@ -3,13 +3,36 @@ body {
 }
 
 .hero {
-  padding-top: 2rem;
-  background-color: #bddcf1;
+  padding-top: 1rem;
+  background-color: white;
+  position: relative;
 }
 
 .hero img {
-  width: 300px;
-  /* height: 500px; */
-  /* float: right; */
-  /* border-radius: 50px 0px 0px 0px; */
+  width: 75%;
+  height: 400px;
+  float: right;
+  border-radius: 60px 0px 0px 0px;
+  border-left: 10px solid rgb(245, 237, 226);
+  border-top: 10px solid rgb(245, 237, 226);
+  border-bottom: 10px solid rgb(245, 237, 226);
+}
+
+.name {
+  margin-top: 250px;
+  padding-top: 5px;
+  padding-right: 20px;
+  width: 50%;
+  height: 300px;
+  position: absolute;
+  background-color: rgb(245, 237, 226);
+  border-radius: 0px 60px 60px 0px;
+}
+
+.blankHero {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(146, 224, 198);
+  border-radius: 0px 20px 20px 0px;
+  position: absolute;
 }
